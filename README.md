@@ -8,6 +8,16 @@ OpenCV:  is most popular computer vision library.  You can do very interesting e
 Pick one of the examples, modify its input and run it."
 
 ## To Compile an opencv sample: 
-~~~~
-g++ -ggdb `pkg-config --cflags --libs opencv` facedetect.cpp -o facedetect
-~~~~
+```
+cd <SmileDetect:W_directory>
+cmake .
+make
+```
+
+If you get the error "error while loading shared libraries: libopencv_core.so.2.4: cannot open shared object file: No such file or directory", [follow the instructions here to fix](http://stackoverflow.com/questions/12335848/opencv-program-compile-error-libopencv-core-so-2-4-cannot-open-shared-object-f).
+
+
+> Old compile instructions, worked on linux but above way is better.
+> ~~~~
+> g++ -ggdb `pkg-config --cflags --libs opencv` facedetect.cpp -o facedetect
+> ~~~~
