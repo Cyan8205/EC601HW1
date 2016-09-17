@@ -5,6 +5,14 @@
 
 using namespace std;
 using namespace cv;
+void drawText(Mat & image)
+{
+    putText(image, "Smile!",
+            Point(20, 50),
+            FONT_HERSHEY_COMPLEX, 1, // font face and scale
+            Scalar(255, 255, 255), // white
+            1, LINE_AA); // line thickness and type
+}
 
 static void help()
 {
@@ -97,6 +105,7 @@ int main( int argc, const char** argv )
                 break;
 
             Mat frame1 = frame.clone();
+            drawText(frame1);
             detectAndDraw( frame1, cascade, nestedCascade, scale, tryflip );
 
             int c = waitKey(10);
