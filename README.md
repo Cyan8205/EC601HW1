@@ -26,8 +26,8 @@ If you get the error "error while loading shared libraries: libopencv_core.so.2.
 [Team Trello](https://trello.com/b/ySk6dD1J/hw1)
 
 ### Screenshot of working changes
-![alt tag](http://i.imgur.com/w93JBZ9.jpg)
-
+![Image not loaded.](http://i.imgur.com/w93JBZ9.jpg)
+![Image not loaded.](http://i.imgur.com/53ZoIwd.png)
 
 
 
