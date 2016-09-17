@@ -9,8 +9,10 @@ We modified the "SmileDetect" sample program to say "Smile!" on the screen.
 Install OpenCV on your own platform.
 
 ```
-cd <SmileDetect:W_directory>
+> cd <desired directory>
+> git clone https://github.com/Cyan8205/EC601HW1.git
 > make
+> ./smiledetect
 ```
 ## When done
 ```
