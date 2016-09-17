@@ -1,5 +1,5 @@
 # EC601HW1
-=======
+
 Osborne, Luke and Lu, Qing
 
 Option 2:
@@ -21,3 +21,9 @@ If you get the error "error while loading shared libraries: libopencv_core.so.2.
 > ~~~~
 > g++ -ggdb `pkg-config --cflags --libs opencv` facedetect.cpp -o facedetect
 > ~~~~
+
+
+[Team Trello](https://trello.com/b/ySk6dD1J/hw1)
+
+
+
