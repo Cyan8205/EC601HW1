@@ -20,10 +20,11 @@ Install OpenCV on your own platform.
 ```
 
 ### Screenshot of working changes
-![Image not loaded.](http://i.imgur.com/w93JBZ9.jpg)
+![http://i.imgur.com/w93JBZ9.jpg](http://i.imgur.com/w93JBZ9.jpg)
 
 ### Screenshot of trello usage
-![Image not loaded.](http://i.imgur.com/53ZoIwd.png)
+![http://i.imgur.com/53ZoIwd.png](http://i.imgur.com/53ZoIwd.png)
 
-
+### Final trello screenshot
+![http://i.imgur.com/x0KQ0ZX.png](http://i.imgur.com/x0KQ0ZX.png)
 
