@@ -24,7 +24,7 @@ static void help()
             "   [--try-flip]\n"
             "   [video_filename|camera_index]\n\n"
             "Example:\n"
-            "./smiledetect --cascade=\"../../data/haarcascades/haarcascade_frontalface_alt.xml\" --smile-cascade=\"../../data/haarcascades/haarcascade_smile.xml\" --scale=2.0\n\n"
+            "./smiledetect --cascade=\"./data/haarcascades/haarcascade_frontalface_alt.xml\" --smile-cascade=\"./data/haarcascades/haarcascade_smile.xml\" --scale=2.0\n\n"
             "During execution:\n\tHit any key to quit.\n"
             "\tUsing OpenCV version " << CV_VERSION << "\n" << endl;
 }
@@ -49,8 +49,8 @@ int main( int argc, const char** argv )
     double scale;
     cv::CommandLineParser parser(argc, argv,
         "{help h||}{scale|1|}"
-        "{cascade|../../data/haarcascades/haarcascade_frontalface_alt.xml|}"
-        "{smile-cascade|../../data/haarcascades/haarcascade_smile.xml|}"
+        "{cascade|./data/haarcascades/haarcascade_frontalface_alt.xml|}"
+        "{smile-cascade|./data/haarcascades/haarcascade_smile.xml|}"
         "{try-flip||}{@input||}");
     if (parser.has("help"))
     {
